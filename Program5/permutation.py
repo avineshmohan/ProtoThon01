@@ -2,7 +2,7 @@ from itertools import permutations
 
 import xlrd
 
-filelocation = "D:\hari saravanan\ProtoThon#01\Round 01\word.xlsx"
+filelocation ="C:\\Users\\Avinesh\\Desktop\\Protothon\\Program5\\word.xlsx"
 
 
 workbook = xlrd.open_workbook(filelocation)
