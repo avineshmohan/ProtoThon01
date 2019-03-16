@@ -5,8 +5,6 @@ size = pic.shape
 print(size)
 for i in range (0,size[0]):
     for j in range (0,size[1]):
-        pic[i][j][1] = 0
-        pic[i][j][2] = 0
         pic[i][j] = pic[i][j][0]*0.34 + pic[i][j][1]*0.51 + pic[i][j][2]*0.15
 thresho = 30 #depends on pixel size
 im_bw = cv2.threshold(pic, thresho, 255, cv2.THRESH_BINARY)[1]
